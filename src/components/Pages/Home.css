@@ -1,0 +1,66 @@
+.services-list ul{
+    padding: '45px';
+}
+.find-section p{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+
+.find-section-wrapper .services-list{position: relative;margin-top: 100px;margin-bottom: 50px;}
+.find-section-wrapper .services-list li{float: left;padding: 35px 0;width: 50%;}
+.find-section-wrapper .services-list li img{    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;}
+    .find-section-wrapper .services-list li  span{
+    display: block;
+    line-height: normal;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.find-section-wrapper .services-list:after{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    content: '';
+    background-image: url('');
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    background-position: right top;
+}
+.find-section-wrapper .services-list:before{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    content: '';
+    background-image: url('');
+    background-repeat: no-repeat;
+    left: 0;
+}
+.find-section-wrapper .services-list ul{position: relative;padding: 25px 35px;}
+.find-section-wrapper .services-list .inner-services:after{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    content: '';
+    background-image: url('');
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    background-position: bottom left;
+}
+.find-section-wrapper .services-list .inner-services:before{
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    content: '';
+    /* background-image: url('https://png.pngtree.com/element_our/20190603/ourlarge/pngtree-pop-poster-border-pink-single-bottom-left-corner-decoration-image_1444069.jpg'); */
+    /* background-color: blue; */
+    background-repeat: no-repeat;background-position: bottom right;
+    bottom: 0;
+    right: 0;
+}
